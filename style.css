@@ -164,21 +164,3 @@ input::placeholder {
     font-size: 2rem;
     color: rgb(28, 26, 26)
 }
-@media screen and (max-width: 500px){
-
-    img{
-        width: 300px;
-    }
-    h1 {
-        font-size: 3rem;
-        margin-bottom: 5rem;
-        margin-top: 5rem;
-    }
-    
-    
-    
-    h2 {
-        font-size: 3rem;
-        margin-bottom: 4rem;
-    
-    }
