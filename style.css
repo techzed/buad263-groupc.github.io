@@ -52,7 +52,7 @@ h4 {
   text-align: center;
 }
 #header {
-margin-top: 4rem;
+margin-top: 1rem;
 margin-bottom: auto;
 margin-left: auto;
 margin-right: auto;
@@ -68,14 +68,15 @@ background-position:center;
 background-repeat:no-repeat;
 }
 .container {
-    width: auto;
-    height: auto;
+   width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 90rem;
     margin: 0 auto;
     padding: 2rem;
+
 }
 
 .flex-column {
@@ -184,7 +185,8 @@ input::placeholder {
 @media screen and (max-width: 500px){
 
     img{
-        width: 300px;
+        margin-top:auto;
+        width: 420px;
     }
     h1 {
         font-size: 3rem;
