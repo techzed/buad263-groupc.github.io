@@ -30,12 +30,29 @@ h2 {
 h3 {
     font-size: 3rem;
     color: #fff;
-    margin-bottom: 5rem;
-    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 
 }
+
+h4 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darksalmon;
+
+  text-align: center;
+}
 #header {
-margin-top: auto;
+margin-top: 4rem;
 margin-bottom: auto;
 margin-left: auto;
 margin-right: auto;
@@ -181,5 +198,12 @@ input::placeholder {
         font-size: 3rem;
         margin-bottom: 4rem;
     
+    }
+
+    #finalScore{
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
     }
 }

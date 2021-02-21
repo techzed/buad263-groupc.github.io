@@ -66,6 +66,7 @@ body {
     background: rgb(11,223,36);
     width: 0%;
 }
+
 @media screen and (max-width: 500px) {
     .choice-container {
         min-width: 10rem;

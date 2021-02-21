@@ -8,17 +8,18 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 const MAX_HIGH_SCORES = 5
 
 finalScore.innerText = mostRecentScore
-meme_img.style.paddingBottom = '10px';
+meme_img.style.paddingBottom = '30px';
 if (mostRecentScore == 0){
-    meme_img.setAttribute('src', '../game/score-0.jpg')
+    meme_img.setAttribute('src', 'score-0.jpg')
 } else if (mostRecentScore >= 1 && mostRecentScore <= 800){
-    meme_img.setAttribute('src', '../game/poor.jpg')
+    meme_img.setAttribute('src', 'poor.jpg')
 } else if (mostRecentScore >= 801 && mostRecentScore <= 1600){
-    meme_img.setAttribute('src', '../game/pass.jpg')
+    meme_img.setAttribute('src', 'pass.jpg')
 } else if (mostRecentScore >= 1601 && mostRecentScore <= 2400){
-    meme_img.setAttribute('src', '../game/not-bad.jpg')
+    meme_img.setAttribute('src', 'not-bad.jpg')
 } else if (mostRecentScore > 2400){
-    meme_img.setAttribute('src', '../game/awesome.jpg')
+    meme_img.setAttribute('src', 'awesome.jpg')
+    meme_img.style.height = "250px"
 }
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value
