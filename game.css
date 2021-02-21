@@ -67,8 +67,31 @@ body {
     width: 0%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .choice-container {
-        min-width: 40rem;
+        min-width: 10rem;
     }
+    #question{
+        font-size: large;
+    }
+    .hud-prefix{
+        font-size: 1rem; 
+    }
+    #progressBar {
+    width: 10rem;
+    height: 1rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+    }
+    .choice-prefix {
+        padding: 1rem 1.5rem;
+        color: white;
+    }
+    .choice-text {
+        padding: 1rem;
+        width: 100%;
+    }
+    
 }
