@@ -15,8 +15,8 @@
 h1 {
     font-size: 5.4rem;
     color: #fff;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 
@@ -27,14 +27,36 @@ h2 {
      color: #fff;
 
 }
+h3 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
 
+}
+#header {
+margin-top: auto;
+margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+
+padding: 5px;
+height: 350px;
+width: 95%;
+
+background-image: url("Group%20C.png");
+background-size: contain;
+color: white;
+background-position:center;
+background-repeat:no-repeat;
+}
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    max-width: 90rem;
     margin: 0 auto;
     padding: 2rem;
 }
